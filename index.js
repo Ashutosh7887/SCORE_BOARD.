@@ -55,5 +55,8 @@ function highlightLeader(){
     else if (homeScore < guestScore){
         leaderMsg.textContent = "Guest team in the lead"
     }
-
+    else
+    {
+        leaderMsg.textContent = "You and Guest are Equal in score"
+    }
 }
